@@ -4,3 +4,6 @@
 [submodule "dst"]
 	path = dst
 	url = git@github.com:rahul-deepsource/dst.git
+[submodule "non-existent-repo"]
+	path = non-existent-repo
+	url = ./non-existent-repo
