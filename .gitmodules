@@ -1,3 +1,6 @@
 [submodule "Go-Home-Alfred"]
 	path = Go-Home-Alfred
 	url = git@github.com:vinaywadhwa/Go-Home-Alfred.git
+[submodule "dst"]
+	path = dst
+	url = git@github.com:rahul-deepsource/dst.git
