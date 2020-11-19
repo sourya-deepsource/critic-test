@@ -1,15 +1,8 @@
 version = 1
-test_patterns = ["test/**"]
-exclude_patterns = ["node_modules/*"]
+
 [[analyzers]]
-name = "javascript"
+name = "go"
 enabled = true
- [analyzers.meta]
- environment = [
-  "nodejs",
-  "mocha"
- ]
- style_guide = "standard"
-[[transformers]]
-name = "standardjs"
-enabled = true
+
+  [analyzers.meta]
+  import_paths = ["github.com/sourya-deepsource/critic-test"]
