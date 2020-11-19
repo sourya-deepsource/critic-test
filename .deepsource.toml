@@ -1,12 +1,15 @@
 version = 1
-
+test_patterns = ["test/**"]
+exclude_patterns = ["node_modules/*"]
 [[analyzers]]
-name = "go"
+name = "javascript"
 enabled = true
-
-  [analyzers.meta]
-  import_paths = ["github.com/sourya/critic-test"]
-
+ [analyzers.meta]
+ environment = [
+  "nodejs",
+  "mocha"
+ ]
+ style_guide = "standard"
 [[transformers]]
-name = "gofmt"
+name = "standardjs"
 enabled = true
