@@ -10,3 +10,4 @@ func reCheck() {
 	fmt.Printf("%+v\n", re.SubexpIndex("something"))
 }
 // la lee lo
+// o ya ya
