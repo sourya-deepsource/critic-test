@@ -44,3 +44,5 @@ func dullSlicing() {
 		_ = xs["0"][0][:] // want `autofix required for unnecessary slice`
 	}
 }
+
+// la dee daa
