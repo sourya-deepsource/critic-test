@@ -7,6 +7,3 @@
 [submodule "non-existent-repo"]
 	path = non-existent-repo
 	url = ./non-existent-repo
-[submodule "go-sdk"]
-	path = go-sdk
-	url = git@github.com:sourya-deepsource/go-sdk.git
